@@ -1,0 +1,23 @@
+.buttonAddTask{
+    padding: 0px 5px 0px 5px;
+    background-color: #b9f2ff ;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #00b7eb;
+    position: relative;
+    z-index: 10;
+}
+
+.headerCard{
+    display: flex;
+    align-items: center;
+    padding: 5px
+
+}
+
+.actionsCard{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

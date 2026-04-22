@@ -1,0 +1,75 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+ion-searchbar{
+    width: 300px;
+}
+
+.buttonExport {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: center;
+    cursor: pointer;
+}
+.buttonFilter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+    background-color: #F8F9FA;
+}
+
+.buttonInvite{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 5px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+
+.add-column {
+  min-width: 250px;
+  height: 60px;
+  background-color: #f1f2f4;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  color: #444;
+  transition: background-color 0.2s ease;
+}
+
+.add-column:hover {
+  background-color: #e2e4e9;
+}
+
+.add-column .plus {
+  font-size: 20px;
+  font-weight: bold;
+}

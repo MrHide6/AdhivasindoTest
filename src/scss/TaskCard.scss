@@ -1,0 +1,36 @@
+.cover {
+    background: #eee;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.buttonEditImage{
+    font-size: 25px;
+    z-index: 10;
+    position: absolute;
+    top:8px;
+    right: 8px;
+}
+.buttonEdit{
+    font-size: 25px;
+    display: flex;
+    justify-content: flex-end;
+}
+.label{
+    padding: 5px 0px;
+    .label-color{
+        border: 2px solid;
+        border-radius: 20px;
+        padding: 3px;
+    }
+}
